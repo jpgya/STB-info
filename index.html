@@ -1,10 +1,44 @@
-<! DOCTYPE html>
-<html>
-  <head>
-    <title>ブレインロッドを盗め - 図鑑</title>
-  </head>
-  <body>
-    <h1>ブレインロッドを盗め</h1>
-    <h3>ブレインロッドを盗めの非公式コミュニティです。</h3>
-  </body>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ブレインロッドを盗め</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="title">ブレインロッドを盗め</h1>
+    <nav class="nav-icons">
+      <a href="#" class="nav-link"><img src="img/home.svg" alt="ホーム" /></a>
+      <a href="#" class="nav-link"><img src="img/book.svg" alt="図鑑" /></a>
+      <a href="#" class="nav-link"><img src="img/flag.svg" alt="イベント" /></a>
+    </nav>
+
+    <button class="hamburger" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+
+  <div class="mobile-menu">
+    <a href="#" class="mobile-link"><img src="img/home.svg" alt="ホーム" /> ホーム</a>
+    <a href="#" class="mobile-link"><img src="img/book.svg" alt="図鑑" /> 図鑑</a>
+    <a href="#" class="mobile-link"><img src="img/flag.svg" alt="イベント" /> イベント</a>
+  </div>
+
+
+  <main class="main-content">
+    <div class="button-container">
+      <button class="action-btn" data-page="zukan">図鑑</button>
+      <button class="action-btn" data-page="event">イベント</button>
+    </div>
+    <p class="status-text">ホームの機能は準備中です✨</p>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
 </html>
